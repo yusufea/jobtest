@@ -28,12 +28,26 @@ export default function Home() {
     <div className={`${openSans.className} max-w-md mx-auto items-center`}>
 
       <div className="p-1 px-auto flex gap-4 justify-center ">
-        {NavHeader.map((item, key) => (
-          <div key={key} className="items-center text-center">
-            <div className={`w-[4rem] h-[3.8rem] max-[400px]:w-[3.5rem] max-[400px]:h-[3.4rem] rounded-full bg-${item.color}-500`} />
-            <h4 className="text-xs">{item.title}</h4>
-          </div>
-        ))}
+        <div className="items-center text-center">
+          <div className={`w-[4rem] h-[3.8rem] max-[400px]:w-[3.5rem] max-[400px]:h-[3.4rem] rounded-full bg-yellow-500`} />
+          <h4 className="text-xs">Sende Al!</h4>
+        </div>
+        <div className="items-center text-center">
+          <div className={`w-[4rem] h-[3.8rem] max-[400px]:w-[3.5rem] max-[400px]:h-[3.4rem] rounded-full bg-purple-500`} />
+          <h4 className="text-xs">Sende Al!</h4>
+        </div>
+        <div className="items-center text-center">
+          <div className={`w-[4rem] h-[3.8rem] max-[400px]:w-[3.5rem] max-[400px]:h-[3.4rem] rounded-full bg-pink-500`} />
+          <h4 className="text-xs">Sende Al!</h4>
+        </div>
+        <div className="items-center text-center">
+          <div className={`w-[4rem] h-[3.8rem] max-[400px]:w-[3.5rem] max-[400px]:h-[3.4rem] rounded-full bg-orange-500`} />
+          <h4 className="text-xs">Sende Al!</h4>
+        </div>
+        <div className="items-center text-center">
+          <div className={`w-[4rem] h-[3.8rem] max-[400px]:w-[3.5rem] max-[400px]:h-[3.4rem] rounded-full bg-gray-500`} />
+          <h4 className="text-xs">Sende Al!</h4>
+        </div>
       </div>
 
       <div className="p-2">
