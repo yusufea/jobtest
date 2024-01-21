@@ -59,25 +59,25 @@ export default function Home() {
             <h6 className="text-[.9rem]">
               Yeni Sezon
             </h6>
-            <KeyboardArrowRightOutlinedIcon />
+            <KeyboardArrowRightOutlinedIcon className="text-gray-400"/>
           </div>
           <div className="flex justify-between items-center border-r border-b p-2">
             <h6 className="text-[.9rem]">
               Kombin
             </h6>
-            <KeyboardArrowRightOutlinedIcon />
+            <KeyboardArrowRightOutlinedIcon className="text-gray-400"/>
           </div>
           <div className="flex justify-between items-center border-r border-b p-2">
             <h6 className="text-[.9rem]">
               Dış Giyim
             </h6>
-            <KeyboardArrowRightOutlinedIcon />
+            <KeyboardArrowRightOutlinedIcon className="text-gray-400"/>
           </div>
           <div className="flex justify-between items-center border-r border-b p-2">
             <h6 className="text-[.9rem]">
               Ayakkabı
             </h6>
-            <KeyboardArrowRightOutlinedIcon />
+            <KeyboardArrowRightOutlinedIcon className="text-gray-400"/>
           </div>
         </div>
         <div className="flex flex-col">
@@ -85,25 +85,25 @@ export default function Home() {
             <h6 className="text-[.9rem]">
               Kış Fırsatları
             </h6>
-            <KeyboardArrowRightOutlinedIcon />
+            <KeyboardArrowRightOutlinedIcon className="text-gray-400"/>
           </div>
           <div className="flex justify-between items-center border-b p-2">
             <h6 className="text-[.9rem]">
               Abiye
             </h6>
-            <KeyboardArrowRightOutlinedIcon />
+            <KeyboardArrowRightOutlinedIcon className="text-gray-400"/>
           </div>
           <div className="flex justify-between items-center border-b p-2">
             <h6 className="text-[.9rem]">
               Üst Giyim
             </h6>
-            <KeyboardArrowRightOutlinedIcon />
+            <KeyboardArrowRightOutlinedIcon className="text-gray-400"/>
           </div>
           <div className="flex justify-between items-center border-b p-2">
             <h6 className="text-[.9rem]">
               Çanta
             </h6>
-            <KeyboardArrowRightOutlinedIcon />
+            <KeyboardArrowRightOutlinedIcon className="text-gray-400"/>
           </div>
         </div>
       </div>
