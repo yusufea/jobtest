@@ -9,7 +9,7 @@ export default function Header() {
 
     return (
         <>
-            <header className={`p-6 mx-24 max-lg:mx-0 bg-gray-100 sm:bg-white ${openSans.className}`}>
+            <header className={`p-6 mx-20 max-lg:mx-0 bg-gray-100 sm:bg-white ${openSans.className}`}>
                 <Transition.Root show={open} as={Fragment}>
                     <Dialog as="div" className="fixed inset-0 overflow-hidden" onClose={setOpen}>
                         <div className="absolute inset-0 overflow-hidden">
@@ -126,18 +126,18 @@ export default function Header() {
                         <button className="block w-7 h-7 text-center text-xl leading-0 absolute top-2 right-2 text-gray-400 focus:outline-none hover:text-gray-900 transition-colors"><SearchOutlined className='text-orange-500' /></button>
                     </div>
                     <div className='flex gap-14 max-2xl:gap-6 max-sm:gap-3'>
-                        <div className='flex gap-1 max-sm:hidden w-full'>
+                        <div className='flex gap-1 max-sm:hidden w-full items-center'>
                             <PersonOutlineOutlined />
                             <h5>Giriş Yap</h5>
                         </div>
                         <div className='sm:hidden'>
                             <SearchOutlined />
                         </div>
-                        <div className='flex gap-1'>
+                        <div className='flex gap-1 items-center'>
                             <FavoriteBorderOutlined />
                             <h5 className='max-sm:hidden'>Favorilerim</h5>
                         </div>
-                        <div className='flex gap-1'>
+                        <div className='flex gap-1 items-center'>
                             <ShoppingCartOutlined />
                             <h5 className='max-sm:hidden'>Sepetim</h5>
                         </div>
