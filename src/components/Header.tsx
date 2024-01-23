@@ -130,7 +130,9 @@ export default function Header() {
                             <PersonOutlineOutlined />
                             <h5>Giriş Yap</h5>
                         </div>
-                        <SearchOutlined className='sm:hidden' />
+                        <div className='sm:hidden'>
+                            <SearchOutlined />
+                        </div>
                         <div className='flex gap-1'>
                             <FavoriteBorderOutlined />
                             <h5 className='max-sm:hidden'>Favorilerim</h5>
