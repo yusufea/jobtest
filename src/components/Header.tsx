@@ -128,7 +128,7 @@ export default function Header() {
                     <div className='flex gap-14 max-2xl:gap-6 max-sm:gap-3'>
                         <div className='flex gap-1 max-sm:hidden w-full items-center'>
                             <PersonOutlineOutlined />
-                            <h5>Giriş Yap</h5>
+                            <h5 className='w-[5rem]'>Giriş Yap</h5>
                         </div>
                         <div className='sm:hidden'>
                             <SearchOutlined />

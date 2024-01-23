@@ -15,25 +15,33 @@ export default function Footer() {
                         <hr />
                         <div className='flex justify-center gap-10 p-10'>
                             <div className='flex items-center gap-2'>
-                                <LocalShippingOutlined className='text-orange-500 border-4 border-orange-500 rounded-full p-4 w-20 h-20' />
+                                <div className='text-orange-500 border-4 border-orange-500 rounded-full p-2 w-20 h-20 flex justify-center'>
+                                    <LocalShippingOutlined className="w-14 h-14" />
+                                </div>
                                 <h4 className='text-xl font-bold w-32'>
                                     Aynı Gün Kargo
                                 </h4>
                             </div>
                             <div className='flex items-center gap-2'>
-                                <KeyboardReturnOutlined className='text-orange-500 border-4 border-orange-500 rounded-full p-2 w-20 h-20' />
+                                <div className='text-orange-500 border-4 border-orange-500 rounded-full p-2 w-20 h-20 flex justify-center'>
+                                    <KeyboardReturnOutlined className="w-14 h-14" />
+                                </div>
                                 <h4 className='text-xl font-bold w-44'>
                                     14 Gün Koşulsuz İade
                                 </h4>
                             </div>
                             <div className='flex items-center gap-2'>
-                                <AddHomeWorkOutlined className='text-orange-500 border-4 border-orange-500 rounded-full p-2 w-20 h-20' />
+                                <div className='text-orange-500 border-4 border-orange-500 rounded-full p-2 w-20 h-20 flex justify-center'>
+                                    <AddHomeWorkOutlined className="w-14 h-14" />
+                                </div>
                                 <h4 className='text-xl font-bold w-44'>
                                     Kapıda Ödeme Kolaylığı
                                 </h4>
                             </div>
                             <div className='flex items-center gap-2'>
-                                <VpnLockOutlined className='text-orange-500 border-4 border-orange-500 rounded-full p-2 w-20 h-20' />
+                                <div className='text-orange-500 border-4 border-orange-500 rounded-full p-2 w-20 h-20 flex justify-center'>
+                                    <VpnLockOutlined className="w-14 h-14" />
+                                </div>
                                 <h4 className='text-xl font-bold w-44'>
                                     %100 Güvenli Ödeme Sayfası
                                 </h4>
