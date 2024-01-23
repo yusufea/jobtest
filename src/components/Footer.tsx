@@ -16,7 +16,7 @@ export default function Footer() {
                         <div className='flex justify-center gap-10 p-10'>
                             <div className='flex items-center gap-2'>
                                 <div className='text-orange-500 border-4 border-orange-500 rounded-full p-2 w-20 h-20 flex justify-center'>
-                                    <LocalShippingOutlined className="w-14 h-14" />
+                                    <LocalShippingOutlined className="!w-14 !h-14" />
                                 </div>
                                 <h4 className='text-xl font-bold w-32'>
                                     Aynı Gün Kargo
@@ -24,7 +24,7 @@ export default function Footer() {
                             </div>
                             <div className='flex items-center gap-2'>
                                 <div className='text-orange-500 border-4 border-orange-500 rounded-full p-2 w-20 h-20 flex justify-center'>
-                                    <KeyboardReturnOutlined className="w-14 h-14" />
+                                    <KeyboardReturnOutlined className="!w-14 !h-14" />
                                 </div>
                                 <h4 className='text-xl font-bold w-44'>
                                     14 Gün Koşulsuz İade
@@ -32,7 +32,7 @@ export default function Footer() {
                             </div>
                             <div className='flex items-center gap-2'>
                                 <div className='text-orange-500 border-4 border-orange-500 rounded-full p-2 w-20 h-20 flex justify-center'>
-                                    <AddHomeWorkOutlined className="w-14 h-14" />
+                                    <AddHomeWorkOutlined className="!w-14 !h-14" />
                                 </div>
                                 <h4 className='text-xl font-bold w-44'>
                                     Kapıda Ödeme Kolaylığı
@@ -40,7 +40,7 @@ export default function Footer() {
                             </div>
                             <div className='flex items-center gap-2'>
                                 <div className='text-orange-500 border-4 border-orange-500 rounded-full p-2 w-20 h-20 flex justify-center'>
-                                    <VpnLockOutlined className="w-14 h-14" />
+                                    <VpnLockOutlined className="!w-14 !h-14" />
                                 </div>
                                 <h4 className='text-xl font-bold w-44'>
                                     %100 Güvenli Ödeme Sayfası
